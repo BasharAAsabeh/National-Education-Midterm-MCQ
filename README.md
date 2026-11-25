@@ -19,6 +19,10 @@ npm run dev
 
 Use `npm test` to verify the complete question bank and study logic, and `npm run build` to generate the production site and `dist/quiz.html`. `npm run preview` serves the production build locally.
 
+## Publish on GitHub Pages
+
+In the GitHub repository, open **Settings → Pages** and select **GitHub Actions** under **Build and deployment → Source**. Push the included Pages workflow to `main`, or run it from the **Actions** tab if it is already on GitHub. The workflow builds and publishes `dist`, and the successful deployment shows the shareable URL. Use a public repository if publishing with GitHub Free.
+
 ## Study controls
 
 - Quick Study covers 741 core questions. All Questions adds 131 detailed questions, and Mock Exam covers the original 70 questions.
